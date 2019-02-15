@@ -20,6 +20,7 @@ function whileLoop(number) {
     }
     
   }
+}
   
   var i = 0;
  
@@ -34,4 +35,3 @@ function incrementVariable() {
     } while 
     (incrementVariable() < num);
   }
-}
