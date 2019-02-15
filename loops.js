@@ -3,10 +3,12 @@ function forLoop(array) {
     if (i === 1) {
       array = [...array, "I am 1 strange loop."]
       return array
+      i++
     }
     else {
      array = [...array, `I am ${i} strange loops.`] 
      return array
+     i++
     }
   }
 }
