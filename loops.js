@@ -4,7 +4,7 @@ function forLoop(array) {
       return [...array, "I am 1 strange loop."]
     }
     else {
-     return [...array, "I am" + ${i} + "strange loops."] 
+     return [...array, `I am ${i} strange loops.`] 
     }
   }
 }
